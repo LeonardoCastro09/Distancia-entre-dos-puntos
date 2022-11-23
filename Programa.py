@@ -1,12 +1,12 @@
-import math
+from Punto import Punto
 
-class Punto:
-    def __init__(self):
-        self.x=int
-        self.y=int
+messi=Punto()
+elbicho=Punto()
 
-    def calcular_distancia(self):
-        self.
+messi.x=8
+messi.y=2
+elbicho.x=9
+elbicho.y=9
 
-Mipunto1=Punto
-Mipunto2=Punto
+a=messi.calcular_distancia(elbicho)
+print(a)
